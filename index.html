@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Page Title -->
+    <title>Coding Lab | Dashboard</title>
+</head>
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <div class="dash-title">
+                <span>CL</span>
+                <h3>Coding Lab</h3>
+            </div>
+            <ul class="nav-bar">
+                <li>
+                    <a href="#" class="active">
+                        <i class="fa-solid fa-home fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span>Content</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-chart-simple fa-fw"></i>
+                        <span>Analytics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-thumbs-up fa-fw"></i>
+                        <span>Likes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-comments fa-fw"></i>
+                        <span>Comments</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-share fa-fw"></i>
+                        <span>Share</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="log">
+                <i class="fa-solid fa-right-from-bracket fa-fw"></i>
+                <span>Log Out</span>
+            </div>
+            <div class="dark">
+                <span>
+                    <i class="fa-regular fa-moon"></i>
+                    <span>Dark Mode</span>
+                </span>
+                <label>
+                    <input class="toogle-checkbox" type="checkbox" checked>
+                    <div class="toogle-switch"></div>
+                </label>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <i class="fa-solid fa-bars fa-fw toggle"></i>
+                <form action="" method="post">
+                    <i class="fa-solid fa-search fa-fw"></i>
+                    <input type="search" placeholder="Search Here">
+                </form>
+                <img src="images/100.jpg" alt="">
+            </div>
+            <div class="dash">
+                <span>
+                    <i class="fa-solid fa-gauge fa-fw"></i>
+                    <h3>Dashboard</h3>
+                </span>
+                <div class="container">
+                    <div class="box">
+                        <i class="fa-regular fa-thumbs-up fa-fw"></i>
+                        <label>Total Likes</label>
+                        <span>50,120</span>
+                    </div>
+                    <div class="box">
+                        <i class="fa-regular fa-comments fa-fw"></i>
+                        <label>Comments</label>
+                        <span>25,120</span>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-share fa-fw"></i>
+                        <label>Total Share</label>
+                        <span>10,320</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="activity">
+                <span>
+                    <i class="fa-solid fa-calendar-days fa-fw"></i>
+                    <h3>Recent Activity</h3>
+                </span>
+                <div class="responsive-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Joined</th>
+                                <th>Type</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Prem Shahi</td>
+                                <td>PremShahi@gmail.com</td>
+                                <td>12-02-2022</td>
+                                <td>New</td>
+                                <td>Liked</td>
+                            </tr>
+                            <tr>
+                                <td>Deba Chand</td>
+                                <td>DebaChand@gmail.com</td>
+                                <td>12-02-2022</td>
+                                <td>Member</td>
+                                <td>Shared</td>
+                            </tr>
+                            <tr>
+                                <td>Prakash Shahi</td>
+                                <td>PrakashShahi@gmail.com</td>
+                                <td>13-02-2022</td>
+                                <td>New</td>
+                                <td>Liked</td>
+                            </tr>
+                            <tr>
+                                <td>Manicha Chand</td>
+                                <td>ManichaChand@gmail.com</td>
+                                <td>13-02-2022</td>
+                                <td>Member</td>
+                                <td>Shared</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
